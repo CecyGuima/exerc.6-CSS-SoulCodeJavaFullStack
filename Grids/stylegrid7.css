@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #383838;
+}
+
+.grid-a {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 200px 1fr 100px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    grid-auto-flow: 100px;
+    gap: 10px;
+}
+
+.a1 {
+    background-color: rgb(216, 184, 5);
+    grid-row: 1/2; 
+    grid-column: 1/4;
+}
+
+.a2 {
+    background-color: rgb(223, 209, 11);
+    grid-row: 2/4;
+    grid-column: 1/2;
+}
+
+.a3 {
+    background-color: rgb(248, 238, 149);
+    grid-row: 2/4;
+    grid-column: 2/4;
+}
+
+.a4 {
+    background-color: rgb(250, 206, 8);
+    grid-row: 4/4;
+    grid-column: 1/4;   
+}
